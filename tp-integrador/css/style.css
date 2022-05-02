@@ -1,0 +1,71 @@
+/*Comprar tickets*/
+.btverde {
+    color: rgb(19, 134, 19) !important;
+}
+/*Logo Codo a Codo*/
+.logo {
+    margin-left: 10%;
+    width: 88px;
+    height: 50px;
+}
+
+.navbar-brand {
+    margin: 0px;
+}
+/*imagen grande*/
+#carrousel{
+    filter:brightness(0.5);
+}
+
+/*Texto presentacion carrousel*/
+#txtcarrousel {
+    position:absolute;
+    width: 500px;
+    height: 300px;
+    top:350px;
+    left: 60%;
+    text-align: right;
+    margin-right: 10%;
+    font-size: 14px;  
+   
+}
+
+#txtoradores {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*seccion foto playa*/
+.fotohonolulu{
+    max-width: 100%;
+}
+.buenosaires {
+    background-color: rgb(77, 76, 76);
+}
+.txtblanco {
+    margin: 5%;
+}
+.titulo {
+    padding-top: 10px;
+    color: white;
+}
+.textogeneral {
+    color: white;
+    font-size: small;
+}
+.foto {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*formulario*/
+.formulario {
+    margin-top: 20px;
+    height: 50%;
+}
+
+
+footer {
+    
+    background-color: rgb(28, 56, 70); 
+}

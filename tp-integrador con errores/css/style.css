@@ -1,0 +1,165 @@
+/*Comprar tickets*/
+.btverde {
+    color: rgb(19, 134, 19) !important;
+}
+/*Logo Codo a Codo*/
+.logo {
+    margin-left: 10%;
+    width: 88px;
+    height: 50px;
+}
+
+.navbar-brand {
+    margin: 0px;
+}
+
+/* SHOWCASE */
+.showcase {
+    background-image: url(../img/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--gray-200);
+  }
+  
+  .showcase .shadow {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .showcase .container-flex {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .showcase .content {
+    width: 50%;
+    margin-bottom: 20vh;
+    text-align: right;
+    color: white;
+  }
+  
+  .showcase .buttonarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .showcase .buttonarea a {
+    color: var(--gray-200);
+    text-decoration: none;
+  
+  }
+  
+  .showcase .btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .showcase .btn-transparent {
+    border: 1px solid var(--gray-200);
+  }
+  
+  .showcase .btn-transparent:hover {
+    background-color: rgba(255, 255, 255, .55);
+    color: var(--gray-900);
+    border: 1px solid rgba(255, 255, 255, .55);
+    transition: 0.5s;
+  }
+  
+  .showcase .btn-solid {
+    background-color: green;
+    border: 1px solid green;
+  }
+  
+  .showcase .btn-solid:hover {
+    background-color: rgba(0, 128, 0, 0.5);
+    border: 1px solid rgba(0, 128, 0, 0.5);
+    color: var(--gray-200);
+    transition: 0.5s;
+  }
+
+#txtoradores {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#txtoradores .underline{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+/*seccion foto playa*/
+.fotohonolulu{
+    max-width: 100%;
+}
+.buenosaires {
+    background-color: rgb(77, 76, 76);
+}
+.txtblanco {
+    margin: 5%;
+}
+.titulo {
+    padding-top: 10px;
+    color: white;
+}
+.textogeneral {
+    color: white;
+    font-size: small;
+}
+.foto {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*formulario*/
+.formulario {
+    margin-top: 20px;
+    height: 50%;
+}
+
+
+
+.formulario .container-md {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+
+/* FOOTER */
+.footer {
+    background-image: linear-gradient(to right, #004d7a, #008793);
+    
+  }
+  
+  .footer .container-footer {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;    
+  }
+  
+  .footer .container-footer a {
+    text-decoration: none;
+    color: var(--gray-200);
+    padding: 3rem 0;
+    width: 100px;
+    text-align: center;    
+  }
+  
+  .footer .container-footer a:hover {
+    color: var(--gray-500);
+  }

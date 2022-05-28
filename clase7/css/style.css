@@ -9,15 +9,26 @@
 body {
     background-color: aqua;
 }
-/*aplicar estilo po id*/
-#id section{
+
+/*aplicar estilo por id, usando #<id>*/
+#idsection{
     background-color: blueviolet;
 }
-/*aplicar estilo po id*/
-#id section{
-    background-color: blueviolet;
+
+#nav {
+    background-color: beige;
 }
-/*aplicar estilo po clase,   .<nombredelaclase>*/
-.links{
-    color:rgb(182, 182, 53)
+
+/*estilo por clases, .<nombreDeLaClase>*/
+.links {
+    color: rgb(255, 0, 179);
+}
+
+/*selector etiqueta*/
+a {
+    text-decoration: none;    
+}
+
+#linkActive {
+    color: burlywood;
 }

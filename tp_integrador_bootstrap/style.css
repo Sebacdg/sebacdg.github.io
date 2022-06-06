@@ -443,3 +443,59 @@
     }
   
   }
+
+  /* ****************************************************** */
+  /* COMPRAR TICKETS */
+  /* ****************************************************** */
+
+  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.cards h5{
+    text-align: center;
+}
+.cards h6{
+    text-align: center;
+}
+
+.cards .card1{
+    border: 2px solid blue;
+    margin: 100px 10px 0px 10px ;
+}
+
+.cards .card2{
+    border: 2px solid seagreen;
+    margin: 100px 10px 0px 10px ;
+}
+
+.cards .card3{
+    border: 2px solid gold;
+    margin: 100px 10px 0px 10px ;
+}
+
+.valor {
+    text-align: center;
+}
+
+.boton .botones button{
+    width: 100%;
+    background-color: rgba(10, 131, 36, 0.8);
+    border-color:rgba(10, 131, 36, 0.8);
+}
+
+.boton .botones button:hover{
+    width: 100%;
+    background-color: rgba(10, 131, 36, 1);   
+    border-color:rgba(10, 131, 36, 1);
+    color: #ced4da;
+    transition: 0.5s;
+}
